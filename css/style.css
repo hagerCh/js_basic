@@ -1,0 +1,15 @@
+select{
+	padding: 5px;
+	border-radius: 3px; 
+}
+
+button{
+	color: grey;
+	background-color: white;
+	border-radius: 3px;
+	padding: 3px 5px;
+}
+
+p{
+	line-height: 25px;
+}

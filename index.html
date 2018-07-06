@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>JS checkpoint</title>
+</head>
+<body>
+	<select id="font" onchange="changeFontFamily()">
+		<option selected value="Arial">Arial</option>
+		<option value="Arial Black">Arial Black</option>
+		<option value="Comic Sans MS">Comic Sans MS</option>
+		<option value="Courier New">Courier New</option>
+	</select>
+	<select id="size" onchange="changeFontSize()">
+		<option selected value="14">14</option>
+		<option value="16">16</option>
+		<option value="18">18</option>
+		<option value="20">20</option>
+	</select>
+	<button onclick="bold()" style="font-family: Lucida Console; font-size: 18px;">
+		<b>B</b>
+	</button>
+	<button onclick="italic()" style="font-family: Lucida Console; font-size: 18px;">
+		<i>I</i>
+	</button>
+	<button onclick="underline()" style="font-family: Lucida Console; font-size: 18px;">
+		<u>U</u>
+	</button>
+	<p id="paragraph">
+		We're going to make a program that looks like Microsoft Word.<br>
+		There will be one paragrah and a bunch of buttons.<br>
+		Each button will have an onclick attribute that will link to a different javascript function.  
+	</p>
+</body>
+<script src="js/cp.js"></script>
+</html>
